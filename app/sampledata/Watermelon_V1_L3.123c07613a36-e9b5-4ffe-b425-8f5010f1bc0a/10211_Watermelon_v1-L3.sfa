@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'lambert2SG',
+      parameters: [
+        {
+          baseColor: 'watermelon',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/Watermelon_V1_L3.123c07613a36-e9b5-4ffe-b425-8f5010f1bc0a/10211_Watermelon_v1-L3.obj',
+    name: '10211_Watermelon_v1-L3',
+    recenter: 'root',
+    scale: 0.050736000000000003,
+  },
+  samplers: [
+    {
+      file: 'sampledata/Watermelon_V1_L3.123c07613a36-e9b5-4ffe-b425-8f5010f1bc0a\\watermelon.jpg',
+      name: 'watermelon',
+      pipeline_name: 'watermelon.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

@@ -1,0 +1,53 @@
+{
+  materials: [
+    {
+      name: '_10864_rotisserie_chicken_v2_L303___Default',
+      parameters: [
+        {
+          baseColor: 'chicken',
+        },
+        {
+          baseColorTint: [
+            0.58819999999999995,
+            0.58819999999999995,
+            0.58819999999999995,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 0.19611600000000001,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/rotisserie_chicken_v2_L3.123cdb1753bd-523c-4846-b831-8cf2f2833128/10864_rotisserie_chicken_v2_L3.obj',
+    name: '10864_rotisserie_chicken_v2_L3',
+    recenter: 'root',
+    scale: 0.0060099999999999997,
+  },
+  samplers: [
+    {
+      file: 'sampledata/rotisserie_chicken_v2_L3.123cdb1753bd-523c-4846-b831-8cf2f2833128\\chicken.jpg',
+      name: 'chicken',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'chicken.jpg',
+    },
+  ],
+  version: '0.54:2',
+}
